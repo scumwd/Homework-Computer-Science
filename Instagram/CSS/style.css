@@ -1,0 +1,185 @@
+a{
+    color: rgb(158, 158, 158);
+    font-size: 14px;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(250, 250, 250);
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    margin: 32px auto 0;
+    height: 618px;
+    width: 100%;
+}
+.center__left{
+    display: flex;
+    justify-content: flex-end;
+    height: 618px;
+    width: 55%;
+}
+.center__left__phones{
+    height: 618px;
+    width: 454px;
+}
+.center__right{
+    height: 618px;
+    width: 50%;
+}
+.center__right__login{
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    width: 350px;
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    margin-top: 32px;
+}
+.login__title{
+    display: flex;
+    justify-content: center;
+}
+.login__title__logo{
+    margin-top: 22px;
+    width: 195px;
+    height: 71px;
+}
+.login__authorization{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+input[type=text], input[type=password] {
+    display: inline-block;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    padding-left: 5px;
+    border-radius: 3px;
+    width: 268px;
+    height: 38px;
+    
+}
+input[type=text]:focus, input[type=password]:focus {
+    outline:none;
+    border-radius: 3px;
+    border: 1px solid rgb(71, 71, 71);
+}
+.login__authorization__user{
+    display: flex;
+    margin-top: 26px;
+    margin-left: 40px;
+    padding-bottom:6px ;
+}
+.login__authorization__password{
+    display: flex;
+    margin-left: 40px;
+}
+.signinbtn{
+    background-color: rgb(0, 148, 246);
+    color: white;
+    height: 30px;
+    width: 276px;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    margin-left:  40px;
+    margin-top: 12px;
+    opacity: 0.4;
+}
+.signinbtn:hover{
+    opacity: 1;
+}
+.login__separation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    margin-left: 2px;
+}
+.space1{
+    width: 99px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+.OR{
+    color: grey;
+    margin: 0 18px;
+}
+.space2{
+    width: 99px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+.link-facebook{
+    color: #385185;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 22px;
+}
+.icon_f{
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+}
+.forget-pass{
+    margin-top: 12px;
+    text-align: center;
+    font-size: 13px;
+}
+.center__right__login__signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 350px;
+    height: 63px;
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    font-size: 16px;
+}
+.center__right__install-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+.store_img{
+    width: 136px;
+    height: 40px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 48px;
+    position: absolute;
+    bottom: 0;
+}
+.footer__first-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0 25%;
+}
+.footer__second-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0 33%;
+}
+.footer__third-line{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: rgb(158, 158, 158);
+}
