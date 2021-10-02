@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "BtIYhfiEY5mMZpUlfgRNFJGe4ZB5d2NgpH8ignoRRyAq09c1bC6X9wXgBkEs8NtocrPBg+Sgfin4zwglAV/GhA==",
+  "success": true,
+  "projectFilePath": "/Users/scumwd/Projects/iiinst/iiinst/iiinst.csproj",
+  "expectedPackageFiles": [
+    "/Users/scumwd/.nuget/packages/mailkit/2.15.0/mailkit.2.15.0.nupkg.sha512",
+    "/Users/scumwd/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "/Users/scumwd/.nuget/packages/mimekit/2.15.0/mimekit.2.15.0.nupkg.sha512",
+    "/Users/scumwd/.nuget/packages/portable.bouncycastle/1.8.10/portable.bouncycastle.1.8.10.nupkg.sha512",
+    "/Users/scumwd/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/scumwd/.nuget/packages/system.reflection.typeextensions/4.4.0/system.reflection.typeextensions.4.4.0.nupkg.sha512",
+    "/Users/scumwd/.nuget/packages/system.security.cryptography.cng/4.7.0/system.security.cryptography.cng.4.7.0.nupkg.sha512",
+    "/Users/scumwd/.nuget/packages/system.security.cryptography.pkcs/4.7.0/system.security.cryptography.pkcs.4.7.0.nupkg.sha512",
+    "/Users/scumwd/.nuget/packages/system.text.encoding.codepages/4.4.0/system.text.encoding.codepages.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
